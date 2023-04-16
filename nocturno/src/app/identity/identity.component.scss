@@ -1,0 +1,32 @@
+@import "../../assets/base.scss";
+
+
+.identity-container {
+    max-width: 590px;
+    h1 {
+        font-size: 1.8em;
+        text-shadow: none;
+        letter-spacing: 1px;
+        padding: $base-padding * 3;
+        a:hover {
+            color: $color-secondary;
+            text-shadow: 1px 2px 5px #00000057;
+        }
+       a:after {
+        content: none;
+       }
+    }
+}
+
+
+/*
+h1 a:hover:after {
+    content: 'Aylín Rodríguez';
+    animation: noise 9s steps(10) infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Rubik Pixels', cursive;
+    font-weight: 400;
+    color: transparent;
+}*/

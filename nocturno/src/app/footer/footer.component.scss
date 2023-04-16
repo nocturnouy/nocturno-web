@@ -1,0 +1,14 @@
+@import "../../assets/base.scss";
+
+ul.footer-nav {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    li {
+        flex: 0 1 auto;
+        padding: 0 30px;
+        font-size: 1.2em;
+        font-weight: 200;
+    }
+}

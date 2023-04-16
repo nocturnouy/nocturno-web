@@ -1,0 +1,17 @@
+@import "../../assets/base.scss";
+
+.navigation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+ul.top-navigation li { 
+    padding: $base-padding * 3;
+    font-size: 1.6em;
+    font-weight: 200;
+    a:after {
+        content:none;
+    }
+}
