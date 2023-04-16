@@ -33,37 +33,3 @@
 
 
 
-
-body {
-@media (max-width:1440px){
-    
-        font-size: 13px;
-        box-sizing:content-box;
-        .bio-container {
-            max-width: 70vw;
-            padding-left: 30vw;
-        }
-    
-    
-    
-}
-
-@media (max-width:1024px){
-    padding:$base-padding * 5;
-
-    .bio-container {
-        max-width: 70vw;
-        padding: 15px;
-        margin:15vh auto;
-    }
-    
-}
-
-@media (max-width:768px){
-    .bio-container {
-        max-width: 78vw;
-        padding: 15px;
-    }
-    
-}
-  }

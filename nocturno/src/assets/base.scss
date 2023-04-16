@@ -54,12 +54,33 @@ ul li {
 /* End Reset */
 
 body {
+    @media (max-width:1440px){
+        font-size: 13px;
+        box-sizing:content-box;
+        padding: $base-padding * 10;
+
+    }
+
+    @media (max-width:1024px){
+        padding:$base-padding * 5;
+     
+    }
+
+  }
+body {
     font-family: 'Mukta', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     background: $bg-color;
     width: 100vw;
-    padding: $base-padding * 10;
+    padding:$base-padding * 5;
     position: relative;
+    box-sizing:border-box;
+
+    @media (min-width:1024px) {
+        font-size: 16px;
+        padding: $base-padding * 10;
+  
+    }
     * {
         color: $color-primary;
         transition: 0ms all ease ;
