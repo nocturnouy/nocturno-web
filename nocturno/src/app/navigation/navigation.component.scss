@@ -4,14 +4,33 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-direction: column;
+    @media (min-width:768px) {
+        flex-direction: row;
+        
+    }
+    & > * {
+        width: 100%;
+        text-align: center;
+        @media (min-width:768px) {
+            width: auto;
+            text-align: left;
+        }
+    }
 }
 
 
-ul.top-navigation li { 
-    padding: $base-padding * 3;
-    font-size: 1.6em;
-    font-weight: 200;
-    a:after {
-        content:none;
+ul.top-navigation{
+    padding: 0;
+    li { 
+        padding: $base-padding * 4;
+        font-size: 1.6em;
+        font-weight: 200;
+        @media (min-width:768px) {
+            padding: $base-padding * 3;
+        }
+        a:after {
+            content:none;
+        }
     }
 }
